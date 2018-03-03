@@ -15,6 +15,6 @@ main()
         double ng,n,lg;
         printf("Please enter a number to get approximated square root\n");
         scanf("%lf",&n);
-		approx(lg,n,&ng);
+	approx(lg,n,&ng);
         printf("The approximation is %f\n",ng);
 }
