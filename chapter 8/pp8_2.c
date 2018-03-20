@@ -42,7 +42,7 @@ int operation(char COLOR_CODES[10][7],int size, char tar[])
 	for(i=0;i<size;i++)
 	{
 		if(strcmp(COLOR_CODES[i],tar)==0)
-			return i;
+			return 0;
 	}
 	return -1;
 }
